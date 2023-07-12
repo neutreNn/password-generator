@@ -158,3 +158,26 @@ body {
 .wrapper .generate-btn:hover {
     background-color: #dddddd;
 }
+
+input[type=range]  {
+    width: 150px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 5px;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    height: 7px;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    background: #fff;
+    border: 1px solid #1e293b;
+    border-radius: 50%;
+    cursor: pointer;
+    width:15px;
+    height: 15px;
+    -webkit-appearance: none;
+    margin-top: -4px;
+}
